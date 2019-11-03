@@ -1,0 +1,11 @@
+.animal-card .card {
+    padding-top: 30px;
+    border: none;
+}
+
+.card-depoimento .card {
+    max-width: 350px;
+    display: flex;
+    justify-content: center;
+    
+}
