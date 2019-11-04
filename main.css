@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .animal-card .card {
-    padding-top: 30px;
+    padding-top: 80px;
+    padding-bottom: 60px;
     border: none;
 }
 
-.card-depoimento .card {
-    max-width: 350px;
-    display: flex;
-    justify-content: center;
+.animal-card .card h3 {
+    font-family: 'Caveat Brush', cursive;
+}
+
+.animal-card h3:hover {
+    font-size: 30px;
+}
+
+.depoimento-card .card {
+    margin-bottom: 40px;
+}
+
+.divider h3 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: grey;
     
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid rgba(0, 0, 0,.1);
+    }
+
+.featurette-divider {
+   width: 80%;
+   margin: -15px 0 60px auto;
+}
+
+.carousel-item img {
+    background: turquoise!important;
 }
