@@ -29,8 +29,7 @@
 .divider h3 {
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: grey;
-    
+    color: grey;   
 }
 
 hr {
@@ -38,11 +37,22 @@ hr {
     border-top: 2px solid rgba(0, 0, 0,.1);
     }
 
-.featurette-divider {
+.featurette-divider-depoiment {
    width: 80%;
    margin: -15px 0 60px auto;
 }
 
-.carousel-item img {
-    background: turquoise!important;
+.featurette-divider-partner {
+    width: 85%;
+    margin: -15px 0 60px auto; 
+}
+
+.list-unstyled img {
+    padding: 2px;
+}
+
+/* PAGINA ONG */
+
+.ong h1, h2 {
+    font-family: 'Caveat Brush', cursive;
 }
