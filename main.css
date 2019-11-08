@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
 
+body {
+    overflow-x: hidden;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -38,21 +42,44 @@ hr {
     }
 
 .featurette-divider-depoiment {
-   width: 80%;
+   width: 85%;
    margin: -15px 0 60px auto;
 }
 
 .featurette-divider-partner {
-    width: 85%;
+    width: 88%;
     margin: -15px 0 60px auto; 
 }
 
 .list-unstyled img {
-    padding: 2px;
+    padding: 10px;
+}
+
+.height-ong {
+    min-height: 600px;
 }
 
 /* PAGINA ONG */
 
-.ong h1, h2 {
+.ong h2, h3 {
     font-family: 'Caveat Brush', cursive;
+}
+
+@media (max-width: 460px) {
+    .card-patas {
+        flex-direction: row;
+    }
+    .card-img-top {
+        width: 200px;
+    }
+    .list-unstyled {
+        display: flex;
+        justify-content: center;
+    }
+    .list-unstyled img {
+        padding: 15px;
+    }
+    .height-ong {
+        min-height: 400px;
+    }
 }
