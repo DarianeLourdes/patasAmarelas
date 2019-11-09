@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Caveat+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+
 
 body {
     overflow-x: hidden;
@@ -10,6 +12,17 @@ body {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+}
+
+.carousel-caption h2 {
+    color: #fbda6f;
+    font-family: 'Caveat Brush', cursive;
+    font-size: 50px;
+}
+.carousel-caption button {
+    background: #fbda6f;
+    border-radius: 70px;
+    padding: 10px 15px;
 }
 
 .animal-card .card {
@@ -51,27 +64,68 @@ hr {
     margin: -15px 0 60px auto; 
 }
 
+p, h6 {
+    font-family: 'Dosis', serif;
+}
+
+h2, h3 {
+    font-family: 'Caveat Brush', cursive;
+}
+
 .list-unstyled img {
     padding: 10px;
 }
+
+/* PÁGINAS */
 
 .height-ong {
     min-height: 600px;
 }
 
-/* PAGINA ONG */
-
-.ong h2, h3 {
-    font-family: 'Caveat Brush', cursive;
+.height-ong h2 {
+    padding-top: 20px;
 }
 
+.height-ong p {
+    font-size: 22px;
+    padding: 30px 0;
+}
+
+.height-contato h2 {
+    padding-top: 20px;
+}
+
+.height-contato p {
+    font-size: 22px;
+    padding: 15px 0;
+}
+
+.footer-copyright a {
+    color: white;
+}
+
+
+
+/* MEDIA */
 @media (max-width: 460px) {
+    .featurette-divider-depoiment {
+        width: 50%;
+        margin: -15px 0 60px auto;
+     }
+     
+     .featurette-divider-partner {
+         width: 60%;
+         margin: -15px 0 60px auto; 
+     }
+
     .card-patas {
         flex-direction: row;
+        max-width: 100%;
     }
-    .card-img-top {
-        width: 200px;
+    .img-patas {
+        width: 150px;
     }
+    
     .list-unstyled {
         display: flex;
         justify-content: center;
